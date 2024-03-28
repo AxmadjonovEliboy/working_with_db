@@ -87,3 +87,8 @@ CREATE TABLE "user_interested"
     "user_id"     integer references auth_user (id)
 );
 
+create table test (
+    id integer primary key ,
+    name varchar
+)
+
